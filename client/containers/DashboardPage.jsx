@@ -48,7 +48,8 @@ class DashboardPage extends React.Component {
             title="Dashboard"
             subtitle="You should get access to this page only after authentication."
           />
-          {this.state.secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>Welcome <strong>{this.state.user.name}</strong>!<br />{this.state.secretData}</CardText>}
+          {this.state.secretData && <
+            CardText style={{ fontSize: '16px', color: 'green' }}>Hello <strong>{this.state.user.firstname} {this.state.user.lastname}</strong>!<br />{this.state.secretData}</CardText>}
       </Card>
     )
   }
