@@ -45,6 +45,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --hot --inline --mode development --open"
+    "dev-start": "webpack-dev-server --hot --inline --mode development --open",
+    "start": "node index.js"
   }
 }
